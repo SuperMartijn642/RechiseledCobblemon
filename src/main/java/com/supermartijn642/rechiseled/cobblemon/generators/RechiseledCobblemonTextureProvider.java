@@ -19,8 +19,7 @@ public class RechiseledCobblemonTextureProvider extends ChiseledTextureProvider 
     @Override
     protected void createTextures(){
         // Create plank textures
-        this.createPlankTextures(ResourceLocation.fromNamespaceAndPath("cobblemon", "block/wood/apricorn_planks"), "block/apricorn_planks");
-        this.createPlankTextures(ResourceLocation.fromNamespaceAndPath("cobblemon", "block/wood/saccharine_planks"), "block/saccharine_planks");
+        this.createPlankTextures(new ResourceLocation("cobblemon", "block/wood/apricorn_planks"), "block/apricorn_planks");
 
         // Create tumblestone textures
         List<String> tumblestoneSuffixes = List.of(

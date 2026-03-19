@@ -15,7 +15,7 @@ public class RechiseledCobblemon implements ModInitializer {
     public static final String MODID = "rechiseledcobblemon";
 
     public static ResourceLocation identifier(String path){
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+        return new ResourceLocation(MODID, path);
     }
 
     public static final RechiseledRegistration REGISTRATION = RechiseledRegistration.get(MODID);
