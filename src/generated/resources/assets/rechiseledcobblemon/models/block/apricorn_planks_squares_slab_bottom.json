@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/apricorn_planks_squares",
+    "side": "rechiseledcobblemon:block/apricorn_planks_squares",
+    "top": "rechiseledcobblemon:block/apricorn_planks_squares"
+  }
+}

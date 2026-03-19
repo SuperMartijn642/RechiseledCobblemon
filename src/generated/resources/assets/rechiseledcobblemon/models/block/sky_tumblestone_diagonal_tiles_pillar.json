@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "rechiseledcobblemon:block/sky_tumblestone_diagonal_tiles_pillar_end",
+    "down": "rechiseledcobblemon:block/sky_tumblestone_diagonal_tiles_pillar_end",
+    "north": "rechiseledcobblemon:block/sky_tumblestone_diagonal_tiles_pillar_side",
+    "east": "rechiseledcobblemon:block/sky_tumblestone_diagonal_tiles_pillar_side",
+    "south": "rechiseledcobblemon:block/sky_tumblestone_diagonal_tiles_pillar_side",
+    "west": "rechiseledcobblemon:block/sky_tumblestone_diagonal_tiles_pillar_side",
+    "particle": "rechiseledcobblemon:block/sky_tumblestone_diagonal_tiles_pillar_side"
+  }
+}

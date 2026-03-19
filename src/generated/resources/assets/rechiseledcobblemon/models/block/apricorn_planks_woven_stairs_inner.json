@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/apricorn_planks_woven",
+    "side": "rechiseledcobblemon:block/apricorn_planks_woven",
+    "top": "rechiseledcobblemon:block/apricorn_planks_woven"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rechiseledcobblemon:block/black_tumblestone_beams_slab_bottom"
+    },
+    "type=double": {
+      "model": "rechiseledcobblemon:block/black_tumblestone_beams_slab_double"
+    },
+    "type=top": {
+      "model": "rechiseledcobblemon:block/black_tumblestone_beams_slab_top"
+    }
+  }
+}

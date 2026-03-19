@@ -1,0 +1,123 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "cobblemon:tumblestone_block",
+    {
+      "block": "rechiseledcobblemon:tumblestone_beams",
+      "connecting_block": "rechiseledcobblemon:tumblestone_beams_connecting",
+      "connecting_slab": "rechiseledcobblemon:tumblestone_beams_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:tumblestone_beams_stairs_connecting",
+      "slab": "rechiseledcobblemon:tumblestone_beams_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_beams_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_brick_pattern",
+      "connecting_block": "rechiseledcobblemon:tumblestone_brick_pattern_connecting",
+      "connecting_slab": "rechiseledcobblemon:tumblestone_brick_pattern_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:tumblestone_brick_pattern_stairs_connecting",
+      "slab": "rechiseledcobblemon:tumblestone_brick_pattern_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_brick_pattern_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_bricks",
+      "connecting_block": "rechiseledcobblemon:tumblestone_bricks_connecting",
+      "connecting_slab": "rechiseledcobblemon:tumblestone_bricks_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:tumblestone_bricks_stairs_connecting",
+      "slab": "rechiseledcobblemon:tumblestone_bricks_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_bricks_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_checkerboard",
+      "slab": "rechiseledcobblemon:tumblestone_checkerboard_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_checkerboard_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_chiseled_bricks",
+      "connecting_block": "rechiseledcobblemon:tumblestone_chiseled_bricks_connecting",
+      "connecting_slab": "rechiseledcobblemon:tumblestone_chiseled_bricks_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:tumblestone_chiseled_bricks_stairs_connecting",
+      "slab": "rechiseledcobblemon:tumblestone_chiseled_bricks_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_chiseled_bricks_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_chiseled_pillar",
+      "connecting_block": "rechiseledcobblemon:tumblestone_chiseled_pillar_connecting",
+      "connecting_slab": "rechiseledcobblemon:tumblestone_chiseled_pillar_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:tumblestone_chiseled_pillar_stairs_connecting",
+      "slab": "rechiseledcobblemon:tumblestone_chiseled_pillar_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_chiseled_pillar_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_chiseled_squares",
+      "slab": "rechiseledcobblemon:tumblestone_chiseled_squares_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_chiseled_squares_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_diagonal_tiles",
+      "slab": "rechiseledcobblemon:tumblestone_diagonal_tiles_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_diagonal_tiles_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_diagonal_tiles_pillar",
+      "connecting_block": "rechiseledcobblemon:tumblestone_diagonal_tiles_pillar_connecting",
+      "connecting_slab": "rechiseledcobblemon:tumblestone_diagonal_tiles_pillar_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:tumblestone_diagonal_tiles_pillar_stairs_connecting",
+      "slab": "rechiseledcobblemon:tumblestone_diagonal_tiles_pillar_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_diagonal_tiles_pillar_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_jewel",
+      "slab": "rechiseledcobblemon:tumblestone_jewel_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_jewel_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_polished",
+      "connecting_block": "rechiseledcobblemon:tumblestone_polished_connecting",
+      "connecting_slab": "rechiseledcobblemon:tumblestone_polished_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:tumblestone_polished_stairs_connecting",
+      "slab": "rechiseledcobblemon:tumblestone_polished_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_polished_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_squares",
+      "slab": "rechiseledcobblemon:tumblestone_squares_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_squares_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_tiles",
+      "connecting_block": "rechiseledcobblemon:tumblestone_tiles_connecting",
+      "connecting_slab": "rechiseledcobblemon:tumblestone_tiles_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:tumblestone_tiles_stairs_connecting",
+      "slab": "rechiseledcobblemon:tumblestone_tiles_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_tiles_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:tumblestone_woven",
+      "slab": "rechiseledcobblemon:tumblestone_woven_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:tumblestone_woven_stairs"
+    }
+  ],
+  "overwrite": false
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_end",
+    "down": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_end",
+    "north": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_side",
+    "east": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_side",
+    "south": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_side",
+    "west": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_side",
+    "particle": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_side"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "rechiseledcobblemon:block/apricorn_planks_small_tiles",
+    "down": "rechiseledcobblemon:block/apricorn_planks_small_tiles",
+    "north": "rechiseledcobblemon:block/apricorn_planks_small_tiles",
+    "east": "rechiseledcobblemon:block/apricorn_planks_small_tiles",
+    "south": "rechiseledcobblemon:block/apricorn_planks_small_tiles",
+    "west": "rechiseledcobblemon:block/apricorn_planks_small_tiles",
+    "particle": "rechiseledcobblemon:block/apricorn_planks_small_tiles"
+  }
+}
