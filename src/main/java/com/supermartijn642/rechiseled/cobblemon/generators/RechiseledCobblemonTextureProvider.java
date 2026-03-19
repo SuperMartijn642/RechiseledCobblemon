@@ -1,7 +1,9 @@
 package com.supermartijn642.rechiseled.cobblemon.generators;
 
+import com.supermartijn642.rechiseled.Rechiseled;
 import com.supermartijn642.rechiseled.api.ChiseledTextureProvider;
 import com.supermartijn642.rechiseled.cobblemon.RechiseledCobblemon;
+import com.supermartijn642.rechiseled.texture.TextureMappingTool;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -13,14 +15,20 @@ import java.util.List;
  */
 public class RechiseledCobblemonTextureProvider extends ChiseledTextureProvider {
 
+    private final List<String> oakPlankSuffixes;
+
     public RechiseledCobblemonTextureProvider(String modid, DataGenerator generator, ExistingFileHelper existingFileHelper){
         super(modid, generator, existingFileHelper);
+        this.oakPlankSuffixes = TextureMappingTool.getSuffixes("oak_planks", existingFileHelper);
     }
 
     @Override
     protected void createTextures(){
         // Create plank textures
-        this.createPlankTextures(new ResourceLocation("cobblemon", "block/apricorn_planks"), "block/apricorn_planks");
+        // Apricorn doesn't quite match the vanilla plank texture pattern, hence manually map the palettes
+        PaletteMap apricornPalette = this.createPaletteMap(RechiseledCobblemon.identifier("palettes/oak"), RechiseledCobblemon.identifier("palettes/apricorn"));
+        for(String suffix : this.oakPlankSuffixes)
+            apricornPalette.applyToTexture(Rechiseled.identifier("block/oak_planks" + suffix), "block/apricorn_planks" + suffix);
 
         // Create tumblestone textures
         List<String> tumblestoneSuffixes = List.of(
