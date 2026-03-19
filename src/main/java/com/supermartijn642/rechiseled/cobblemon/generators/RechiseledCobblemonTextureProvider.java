@@ -2,9 +2,8 @@ package com.supermartijn642.rechiseled.cobblemon.generators;
 
 import com.supermartijn642.rechiseled.api.ChiseledTextureProvider;
 import com.supermartijn642.rechiseled.cobblemon.RechiseledCobblemon;
-import net.minecraft.data.DataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 import java.util.List;
 
@@ -13,8 +12,8 @@ import java.util.List;
  */
 public class RechiseledCobblemonTextureProvider extends ChiseledTextureProvider {
 
-    public RechiseledCobblemonTextureProvider(String modid, DataGenerator generator, ExistingFileHelper existingFileHelper){
-        super(modid, generator, existingFileHelper);
+    public RechiseledCobblemonTextureProvider(String modid, FabricDataOutput output){
+        super(modid, output);
     }
 
     @Override

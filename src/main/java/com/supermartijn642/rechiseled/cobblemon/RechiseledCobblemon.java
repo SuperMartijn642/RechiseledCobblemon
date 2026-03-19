@@ -4,14 +4,13 @@ import com.supermartijn642.core.item.CreativeItemGroup;
 import com.supermartijn642.core.registry.GeneratorRegistrationHandler;
 import com.supermartijn642.rechiseled.api.registration.RechiseledRegistration;
 import com.supermartijn642.rechiseled.cobblemon.generators.RechiseledCobblemonTextureProvider;
+import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.fml.common.Mod;
 
 /**
  * Created 18/03/2026 by SuperMartijn642
  */
-@Mod(RechiseledCobblemon.MODID)
-public class RechiseledCobblemon {
+public class RechiseledCobblemon implements ModInitializer {
 
     public static final String MODID = "rechiseledcobblemon";
 
@@ -23,14 +22,15 @@ public class RechiseledCobblemon {
     @SuppressWarnings("Convert2MethodRef")
     public static final CreativeItemGroup GROUP = (CreativeItemGroup)REGISTRATION.itemGroup(() -> RechiseledCobblemonBlocks.SKY_TUMBLESTONE_CHISELED_PILLAR.getRegularBlock(), "Rechiseled: Cobblemon");
 
-    public RechiseledCobblemon(){
+    @Override
+    public void onInitialize(){
         // Make sure the blocks get loaded
         RechiseledCobblemonBlocks.init();
         RechiseledCobblemonRecipes.init();
 
         // Register data providers for generating all the json files
         GeneratorRegistrationHandler handler = GeneratorRegistrationHandler.get(RechiseledCobblemon.MODID);
-        handler.addProvider(((dataGenerator, existingFileHelper) -> new RechiseledCobblemonTextureProvider(MODID, dataGenerator, existingFileHelper)));
+        handler.addProvider(output -> new RechiseledCobblemonTextureProvider(MODID, output));
         REGISTRATION.registerDataProviders();
     }
 }
