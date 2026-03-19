@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_slab_bottom"
+    },
+    "type=double": {
+      "model": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_slab_double"
+    },
+    "type=top": {
+      "model": "rechiseledcobblemon:block/tumblestone_chiseled_bricks_slab_top"
+    }
+  }
+}

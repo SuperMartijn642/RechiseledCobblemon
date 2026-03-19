@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "rechiseledcobblemon:tumblestone_beams_slab",
+    "rechiseledcobblemon:tumblestone_beams_slab_connecting",
+    "rechiseledcobblemon:tumblestone_brick_pattern_slab",
+    "rechiseledcobblemon:tumblestone_brick_pattern_slab_connecting",
+    "rechiseledcobblemon:tumblestone_bricks_slab",
+    "rechiseledcobblemon:tumblestone_bricks_slab_connecting",
+    "rechiseledcobblemon:tumblestone_checkerboard_slab",
+    "rechiseledcobblemon:tumblestone_chiseled_bricks_slab",
+    "rechiseledcobblemon:tumblestone_chiseled_bricks_slab_connecting",
+    "rechiseledcobblemon:tumblestone_chiseled_pillar_slab",
+    "rechiseledcobblemon:tumblestone_chiseled_pillar_slab_connecting",
+    "rechiseledcobblemon:tumblestone_chiseled_squares_slab",
+    "rechiseledcobblemon:tumblestone_diagonal_tiles_pillar_slab",
+    "rechiseledcobblemon:tumblestone_diagonal_tiles_pillar_slab_connecting",
+    "rechiseledcobblemon:tumblestone_diagonal_tiles_slab",
+    "rechiseledcobblemon:tumblestone_jewel_slab",
+    "rechiseledcobblemon:tumblestone_polished_slab",
+    "rechiseledcobblemon:tumblestone_polished_slab_connecting",
+    "rechiseledcobblemon:tumblestone_squares_slab",
+    "rechiseledcobblemon:tumblestone_tiles_slab",
+    "rechiseledcobblemon:tumblestone_tiles_slab_connecting",
+    "rechiseledcobblemon:tumblestone_woven_slab"
+  ]
+}

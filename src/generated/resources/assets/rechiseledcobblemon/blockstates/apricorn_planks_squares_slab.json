@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rechiseledcobblemon:block/apricorn_planks_squares_slab_bottom"
+    },
+    "type=double": {
+      "model": "rechiseledcobblemon:block/apricorn_planks_squares_slab_double"
+    },
+    "type=top": {
+      "model": "rechiseledcobblemon:block/apricorn_planks_squares_slab_top"
+    }
+  }
+}
