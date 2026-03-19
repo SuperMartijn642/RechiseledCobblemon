@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/tumblestone_jewel",
+    "side": "rechiseledcobblemon:block/tumblestone_jewel",
+    "top": "rechiseledcobblemon:block/tumblestone_jewel"
+  }
+}

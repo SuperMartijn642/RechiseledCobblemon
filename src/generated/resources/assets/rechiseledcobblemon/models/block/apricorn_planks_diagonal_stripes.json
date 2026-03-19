@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "rechiseledcobblemon:block/apricorn_planks_diagonal_stripes",
+    "down": "rechiseledcobblemon:block/apricorn_planks_diagonal_stripes",
+    "north": "rechiseledcobblemon:block/apricorn_planks_diagonal_stripes",
+    "east": "rechiseledcobblemon:block/apricorn_planks_diagonal_stripes",
+    "south": "rechiseledcobblemon:block/apricorn_planks_diagonal_stripes",
+    "west": "rechiseledcobblemon:block/apricorn_planks_diagonal_stripes",
+    "particle": "rechiseledcobblemon:block/apricorn_planks_diagonal_stripes"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/sky_tumblestone_tiles",
+    "side": "rechiseledcobblemon:block/sky_tumblestone_tiles",
+    "top": "rechiseledcobblemon:block/sky_tumblestone_tiles"
+  }
+}

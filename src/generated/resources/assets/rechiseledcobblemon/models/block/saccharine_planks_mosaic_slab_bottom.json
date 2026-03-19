@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/saccharine_planks_mosaic",
+    "side": "rechiseledcobblemon:block/saccharine_planks_mosaic",
+    "top": "rechiseledcobblemon:block/saccharine_planks_mosaic"
+  }
+}
