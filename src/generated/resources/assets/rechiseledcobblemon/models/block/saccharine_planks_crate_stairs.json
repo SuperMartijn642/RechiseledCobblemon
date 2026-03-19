@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/saccharine_planks_crate",
+    "side": "rechiseledcobblemon:block/saccharine_planks_crate",
+    "top": "rechiseledcobblemon:block/saccharine_planks_crate"
+  }
+}

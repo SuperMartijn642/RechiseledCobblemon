@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/apricorn_planks_brick_pattern",
+    "side": "rechiseledcobblemon:block/apricorn_planks_brick_pattern",
+    "top": "rechiseledcobblemon:block/apricorn_planks_brick_pattern"
+  }
+}

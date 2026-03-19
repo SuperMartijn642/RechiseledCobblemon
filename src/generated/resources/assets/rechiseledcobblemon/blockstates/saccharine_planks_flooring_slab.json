@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rechiseledcobblemon:block/saccharine_planks_flooring_slab_bottom"
+    },
+    "type=double": {
+      "model": "rechiseledcobblemon:block/saccharine_planks_flooring_slab_double"
+    },
+    "type=top": {
+      "model": "rechiseledcobblemon:block/saccharine_planks_flooring_slab_top"
+    }
+  }
+}

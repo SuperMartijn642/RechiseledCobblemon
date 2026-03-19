@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "rechiseledcobblemon:black_tumblestone_beams_stairs",
+    "rechiseledcobblemon:black_tumblestone_beams_stairs_connecting",
+    "rechiseledcobblemon:black_tumblestone_brick_pattern_stairs",
+    "rechiseledcobblemon:black_tumblestone_brick_pattern_stairs_connecting",
+    "rechiseledcobblemon:black_tumblestone_bricks_stairs_connecting",
+    "rechiseledcobblemon:black_tumblestone_checkerboard_stairs",
+    "rechiseledcobblemon:black_tumblestone_chiseled_bricks_stairs_connecting",
+    "rechiseledcobblemon:black_tumblestone_chiseled_pillar_stairs",
+    "rechiseledcobblemon:black_tumblestone_chiseled_pillar_stairs_connecting",
+    "rechiseledcobblemon:black_tumblestone_chiseled_squares_stairs",
+    "rechiseledcobblemon:black_tumblestone_diagonal_tiles_pillar_stairs",
+    "rechiseledcobblemon:black_tumblestone_diagonal_tiles_pillar_stairs_connecting",
+    "rechiseledcobblemon:black_tumblestone_diagonal_tiles_stairs",
+    "rechiseledcobblemon:black_tumblestone_jewel_stairs",
+    "rechiseledcobblemon:black_tumblestone_polished_stairs_connecting",
+    "rechiseledcobblemon:black_tumblestone_squares_stairs",
+    "rechiseledcobblemon:black_tumblestone_tiles_stairs",
+    "rechiseledcobblemon:black_tumblestone_tiles_stairs_connecting",
+    "rechiseledcobblemon:black_tumblestone_woven_stairs"
+  ]
+}

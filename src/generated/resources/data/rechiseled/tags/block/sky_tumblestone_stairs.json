@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "rechiseledcobblemon:sky_tumblestone_beams_stairs",
+    "rechiseledcobblemon:sky_tumblestone_beams_stairs_connecting",
+    "rechiseledcobblemon:sky_tumblestone_brick_pattern_stairs",
+    "rechiseledcobblemon:sky_tumblestone_brick_pattern_stairs_connecting",
+    "rechiseledcobblemon:sky_tumblestone_bricks_stairs_connecting",
+    "rechiseledcobblemon:sky_tumblestone_checkerboard_stairs",
+    "rechiseledcobblemon:sky_tumblestone_chiseled_bricks_stairs_connecting",
+    "rechiseledcobblemon:sky_tumblestone_chiseled_pillar_stairs",
+    "rechiseledcobblemon:sky_tumblestone_chiseled_pillar_stairs_connecting",
+    "rechiseledcobblemon:sky_tumblestone_chiseled_squares_stairs",
+    "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_pillar_stairs",
+    "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_pillar_stairs_connecting",
+    "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_stairs",
+    "rechiseledcobblemon:sky_tumblestone_jewel_stairs",
+    "rechiseledcobblemon:sky_tumblestone_polished_stairs_connecting",
+    "rechiseledcobblemon:sky_tumblestone_squares_stairs",
+    "rechiseledcobblemon:sky_tumblestone_tiles_stairs",
+    "rechiseledcobblemon:sky_tumblestone_tiles_stairs_connecting",
+    "rechiseledcobblemon:sky_tumblestone_woven_stairs"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/black_tumblestone_chiseled_squares",
+    "side": "rechiseledcobblemon:block/black_tumblestone_chiseled_squares",
+    "top": "rechiseledcobblemon:block/black_tumblestone_chiseled_squares"
+  }
+}

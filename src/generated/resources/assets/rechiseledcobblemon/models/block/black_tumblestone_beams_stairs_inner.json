@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/black_tumblestone_beams",
+    "side": "rechiseledcobblemon:block/black_tumblestone_beams",
+    "top": "rechiseledcobblemon:block/black_tumblestone_beams"
+  }
+}

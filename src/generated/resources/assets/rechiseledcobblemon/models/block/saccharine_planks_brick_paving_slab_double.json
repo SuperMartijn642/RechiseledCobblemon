@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "rechiseledcobblemon:block/saccharine_planks_brick_paving",
+    "down": "rechiseledcobblemon:block/saccharine_planks_brick_paving",
+    "north": "rechiseledcobblemon:block/saccharine_planks_brick_paving",
+    "east": "rechiseledcobblemon:block/saccharine_planks_brick_paving",
+    "south": "rechiseledcobblemon:block/saccharine_planks_brick_paving",
+    "west": "rechiseledcobblemon:block/saccharine_planks_brick_paving",
+    "particle": "rechiseledcobblemon:block/saccharine_planks_brick_paving"
+  }
+}

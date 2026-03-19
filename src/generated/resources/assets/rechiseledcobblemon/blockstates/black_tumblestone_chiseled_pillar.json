@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rechiseledcobblemon:block/black_tumblestone_chiseled_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rechiseledcobblemon:block/black_tumblestone_chiseled_pillar"
+    },
+    "axis=z": {
+      "model": "rechiseledcobblemon:block/black_tumblestone_chiseled_pillar",
+      "x": 90
+    }
+  }
+}

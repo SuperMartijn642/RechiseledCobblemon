@@ -1,0 +1,126 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "cobblemon:chiseled_polished_sky_tumblestone",
+    {
+      "block": "cobblemon:smooth_sky_tumblestone",
+      "slab": "cobblemon:smooth_sky_tumblestone_slab",
+      "slab_worth": 0.5,
+      "stairs": "cobblemon:smooth_sky_tumblestone_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_beams",
+      "connecting_block": "rechiseledcobblemon:sky_tumblestone_beams_connecting",
+      "connecting_slab": "rechiseledcobblemon:sky_tumblestone_beams_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:sky_tumblestone_beams_stairs_connecting",
+      "slab": "rechiseledcobblemon:sky_tumblestone_beams_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_beams_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_brick_pattern",
+      "connecting_block": "rechiseledcobblemon:sky_tumblestone_brick_pattern_connecting",
+      "connecting_slab": "rechiseledcobblemon:sky_tumblestone_brick_pattern_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:sky_tumblestone_brick_pattern_stairs_connecting",
+      "slab": "rechiseledcobblemon:sky_tumblestone_brick_pattern_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_brick_pattern_stairs"
+    },
+    {
+      "block": "cobblemon:sky_tumblestone_bricks",
+      "connecting_block": "rechiseledcobblemon:sky_tumblestone_bricks_connecting",
+      "connecting_slab": "rechiseledcobblemon:sky_tumblestone_bricks_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:sky_tumblestone_bricks_stairs_connecting",
+      "slab": "cobblemon:sky_tumblestone_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "cobblemon:sky_tumblestone_brick_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_checkerboard",
+      "slab": "rechiseledcobblemon:sky_tumblestone_checkerboard_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_checkerboard_stairs"
+    },
+    {
+      "block": "cobblemon:chiseled_sky_tumblestone_bricks",
+      "connecting_block": "rechiseledcobblemon:sky_tumblestone_chiseled_bricks_connecting",
+      "connecting_slab": "rechiseledcobblemon:sky_tumblestone_chiseled_bricks_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:sky_tumblestone_chiseled_bricks_stairs_connecting"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_chiseled_pillar",
+      "connecting_block": "rechiseledcobblemon:sky_tumblestone_chiseled_pillar_connecting",
+      "connecting_slab": "rechiseledcobblemon:sky_tumblestone_chiseled_pillar_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:sky_tumblestone_chiseled_pillar_stairs_connecting",
+      "slab": "rechiseledcobblemon:sky_tumblestone_chiseled_pillar_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_chiseled_pillar_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_chiseled_squares",
+      "slab": "rechiseledcobblemon:sky_tumblestone_chiseled_squares_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_chiseled_squares_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles",
+      "slab": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_pillar",
+      "connecting_block": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_pillar_connecting",
+      "connecting_slab": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_pillar_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_pillar_stairs_connecting",
+      "slab": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_pillar_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_diagonal_tiles_pillar_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_jewel",
+      "slab": "rechiseledcobblemon:sky_tumblestone_jewel_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_jewel_stairs"
+    },
+    {
+      "block": "cobblemon:polished_sky_tumblestone",
+      "connecting_block": "rechiseledcobblemon:sky_tumblestone_polished_connecting",
+      "connecting_slab": "rechiseledcobblemon:sky_tumblestone_polished_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:sky_tumblestone_polished_stairs_connecting",
+      "slab": "cobblemon:polished_sky_tumblestone_slab",
+      "slab_worth": 0.5,
+      "stairs": "cobblemon:polished_sky_tumblestone_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_squares",
+      "slab": "rechiseledcobblemon:sky_tumblestone_squares_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_squares_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_tiles",
+      "connecting_block": "rechiseledcobblemon:sky_tumblestone_tiles_connecting",
+      "connecting_slab": "rechiseledcobblemon:sky_tumblestone_tiles_slab_connecting",
+      "connecting_slab_worth": 0.5,
+      "connecting_stairs": "rechiseledcobblemon:sky_tumblestone_tiles_stairs_connecting",
+      "slab": "rechiseledcobblemon:sky_tumblestone_tiles_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_tiles_stairs"
+    },
+    {
+      "block": "rechiseledcobblemon:sky_tumblestone_woven",
+      "slab": "rechiseledcobblemon:sky_tumblestone_woven_slab",
+      "slab_worth": 0.5,
+      "stairs": "rechiseledcobblemon:sky_tumblestone_woven_stairs"
+    }
+  ],
+  "overwrite": false
+}

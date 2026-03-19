@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rechiseledcobblemon:block/black_tumblestone_diagonal_tiles_pillar_end",
+    "side": "rechiseledcobblemon:block/black_tumblestone_diagonal_tiles_pillar_side",
+    "top": "rechiseledcobblemon:block/black_tumblestone_diagonal_tiles_pillar_end"
+  }
+}
