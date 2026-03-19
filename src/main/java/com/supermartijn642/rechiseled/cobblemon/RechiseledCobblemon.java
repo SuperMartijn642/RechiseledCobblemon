@@ -5,7 +5,7 @@ import com.supermartijn642.core.registry.GeneratorRegistrationHandler;
 import com.supermartijn642.rechiseled.api.registration.RechiseledRegistration;
 import com.supermartijn642.rechiseled.cobblemon.generators.RechiseledCobblemonTextureProvider;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod;
 
 /**
  * Created 18/03/2026 by SuperMartijn642
@@ -16,7 +16,7 @@ public class RechiseledCobblemon {
     public static final String MODID = "rechiseledcobblemon";
 
     public static ResourceLocation identifier(String path){
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+        return new ResourceLocation(MODID, path);
     }
 
     public static final RechiseledRegistration REGISTRATION = RechiseledRegistration.get(MODID);

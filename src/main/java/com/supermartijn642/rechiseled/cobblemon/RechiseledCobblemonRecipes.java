@@ -15,39 +15,25 @@ public class RechiseledCobblemonRecipes {
 
     public static final ResourceLocation APRICORN_PLANKS = location("apricorn_planks");
     public static final ResourceLocation BLACK_TUMBLESTONE = location("black_tumblestone");
-    public static final ResourceLocation SACCHARINE_PLANKS = location("saccharine_planks");
     public static final ResourceLocation SKY_TUMBLESTONE = location("sky_tumblestone");
     public static final ResourceLocation TUMBLESTONE = location("tumblestone");
 
     private static ResourceLocation location(String name){
-        return ResourceLocation.fromNamespaceAndPath(RechiseledCobblemon.MODID, name);
+        return new ResourceLocation(RechiseledCobblemon.MODID, name);
     }
 
     public static void init(){
         // Apricorn planks
         regularBlockOnly(APRICORN_PLANKS, () -> CobblemonBlocks.APRICORN_PLANKS);
-        // Saccharine planks
-        regularBlockOnly(SACCHARINE_PLANKS, () -> CobblemonBlocks.SACCHARINE_PLANKS);
         // Tumblestone
-        regularBlockOnly(TUMBLESTONE, () -> CobblemonBlocks.CHISELED_POLISHED_TUMBLESTONE);
-        regularSet(TUMBLESTONE, () -> CobblemonBlocks.SMOOTH_TUMBLESTONE, () -> CobblemonBlocks.SMOOTH_TUMBLESTONE_STAIRS, () -> CobblemonBlocks.SMOOTH_TUMBLESTONE_SLAB);
+        regularBlockOnly(TUMBLESTONE, () -> CobblemonBlocks.TUMBLESTONE_BLOCK);
         // Sky tumblestone
-        regularBlockOnly(SKY_TUMBLESTONE, () -> CobblemonBlocks.CHISELED_POLISHED_SKY_TUMBLESTONE);
-        regularSet(SKY_TUMBLESTONE, () -> CobblemonBlocks.SMOOTH_SKY_TUMBLESTONE, () -> CobblemonBlocks.SMOOTH_SKY_TUMBLESTONE_STAIRS, () -> CobblemonBlocks.SMOOTH_SKY_TUMBLESTONE_SLAB);
+        regularBlockOnly(SKY_TUMBLESTONE, () -> CobblemonBlocks.SKY_TUMBLESTONE_BLOCK);
         // Black tumblestone
-        regularBlockOnly(BLACK_TUMBLESTONE, () -> CobblemonBlocks.CHISELED_POLISHED_BLACK_TUMBLESTONE);
-        regularSet(BLACK_TUMBLESTONE, () -> CobblemonBlocks.SMOOTH_BLACK_TUMBLESTONE, () -> CobblemonBlocks.SMOOTH_BLACK_TUMBLESTONE_STAIRS, () -> CobblemonBlocks.SMOOTH_BLACK_TUMBLESTONE_SLAB);
+        regularBlockOnly(BLACK_TUMBLESTONE, () -> CobblemonBlocks.BLACK_TUMBLESTONE_BLOCK);
     }
 
     private static void regularBlockOnly(ResourceLocation recipe, Supplier<ItemLike> block){
         REGISTRATION.chiselingEntry(recipe, entry -> entry.regularBlock(block.get()));
-    }
-
-    private static void regularSet(ResourceLocation recipe, Supplier<ItemLike> block, Supplier<ItemLike> stairs, Supplier<ItemLike> slab){
-        REGISTRATION.chiselingEntry(recipe, entry -> {
-            entry.regularBlock(block.get());
-            entry.regularStairs(stairs.get());
-            entry.regularSlab(slab.get());
-        });
     }
 }

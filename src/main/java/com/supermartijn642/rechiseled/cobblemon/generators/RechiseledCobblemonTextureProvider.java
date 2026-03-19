@@ -4,7 +4,7 @@ import com.supermartijn642.rechiseled.api.ChiseledTextureProvider;
 import com.supermartijn642.rechiseled.cobblemon.RechiseledCobblemon;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.minecraftforge.common.data.ExistingFileHelper;
 
 import java.util.List;
 
@@ -20,8 +20,7 @@ public class RechiseledCobblemonTextureProvider extends ChiseledTextureProvider 
     @Override
     protected void createTextures(){
         // Create plank textures
-        this.createPlankTextures(ResourceLocation.fromNamespaceAndPath("cobblemon", "block/wood/apricorn_planks"), "block/apricorn_planks");
-        this.createPlankTextures(ResourceLocation.fromNamespaceAndPath("cobblemon", "block/wood/saccharine_planks"), "block/saccharine_planks");
+        this.createPlankTextures(new ResourceLocation("cobblemon", "block/apricorn_planks"), "block/apricorn_planks");
 
         // Create tumblestone textures
         List<String> tumblestoneSuffixes = List.of(
