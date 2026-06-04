@@ -25,9 +25,9 @@ public class RechiseledCobblemonRecipes {
 
     public static void init(){
         // Apricorn planks
-        regularBlockOnly(APRICORN_PLANKS, () -> CobblemonBlocks.APRICORN_PLANKS);
+        regularSet(APRICORN_PLANKS, () -> CobblemonBlocks.APRICORN_PLANKS, () -> CobblemonBlocks.APRICORN_STAIRS, () -> CobblemonBlocks.APRICORN_SLAB);
         // Saccharine planks
-        regularBlockOnly(SACCHARINE_PLANKS, () -> CobblemonBlocks.SACCHARINE_PLANKS);
+        regularSet(SACCHARINE_PLANKS, () -> CobblemonBlocks.SACCHARINE_PLANKS, () -> CobblemonBlocks.SACCHARINE_STAIRS, () -> CobblemonBlocks.SACCHARINE_SLAB);
         // Tumblestone
         regularBlockOnly(TUMBLESTONE, () -> CobblemonBlocks.CHISELED_POLISHED_TUMBLESTONE);
         regularSet(TUMBLESTONE, () -> CobblemonBlocks.SMOOTH_TUMBLESTONE, () -> CobblemonBlocks.SMOOTH_TUMBLESTONE_STAIRS, () -> CobblemonBlocks.SMOOTH_TUMBLESTONE_SLAB);
