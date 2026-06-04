@@ -24,7 +24,7 @@ public class RechiseledCobblemonRecipes {
 
     public static void init(){
         // Apricorn planks
-        regularBlockOnly(APRICORN_PLANKS, () -> CobblemonBlocks.APRICORN_PLANKS);
+        regularSet(APRICORN_PLANKS, () -> CobblemonBlocks.APRICORN_PLANKS, () -> CobblemonBlocks.APRICORN_STAIRS, () -> CobblemonBlocks.APRICORN_SLAB);
         // Tumblestone
         regularBlockOnly(TUMBLESTONE, () -> CobblemonBlocks.TUMBLESTONE_BLOCK);
         // Sky tumblestone
@@ -35,5 +35,13 @@ public class RechiseledCobblemonRecipes {
 
     private static void regularBlockOnly(ResourceLocation recipe, Supplier<ItemLike> block){
         REGISTRATION.chiselingEntry(recipe, entry -> entry.regularBlock(block.get()));
+    }
+
+    private static void regularSet(ResourceLocation recipe, Supplier<ItemLike> block, Supplier<ItemLike> stairs, Supplier<ItemLike> slab){
+        REGISTRATION.chiselingEntry(recipe, entry -> {
+            entry.regularBlock(block.get());
+            entry.regularStairs(stairs.get());
+            entry.regularSlab(slab.get());
+        });
     }
 }
