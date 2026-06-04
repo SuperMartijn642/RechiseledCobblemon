@@ -1,7 +1,12 @@
 {
   "type": "rechiseled:chiseling",
   "entries": [
-    "cobblemon:apricorn_planks",
+    {
+      "block": "cobblemon:apricorn_planks",
+      "slab": "cobblemon:apricorn_slab",
+      "slab_worth": 0.5,
+      "stairs": "cobblemon:apricorn_stairs"
+    },
     {
       "block": "rechiseledcobblemon:apricorn_planks_beams",
       "connecting_block": "rechiseledcobblemon:apricorn_planks_beams_connecting",
