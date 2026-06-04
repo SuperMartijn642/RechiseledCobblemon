@@ -1,7 +1,12 @@
 {
   "type": "rechiseled:chiseling",
   "entries": [
-    "cobblemon:saccharine_planks",
+    {
+      "block": "cobblemon:saccharine_planks",
+      "slab": "cobblemon:saccharine_slab",
+      "slab_worth": 0.5,
+      "stairs": "cobblemon:saccharine_stairs"
+    },
     {
       "block": "rechiseledcobblemon:saccharine_planks_beams",
       "connecting_block": "rechiseledcobblemon:saccharine_planks_beams_connecting",
